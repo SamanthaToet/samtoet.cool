@@ -120,6 +120,12 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+[[menu.main]]
+name = "Theme"
+weight = -10
+identifier = "repository"
+url = "https://github.com/MunifTanjim/minimo"
+
 [blackfriday]
 hrefTargetBlank = true
 
